@@ -1,0 +1,56 @@
+# Output directories
+output/
+logs/
+
+# Configuration files with sensitive data
+config/api_keys.conf
+config/*.conf
+!config/api_keys.conf.example
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.atom/
+
+# System files
+Thumbs.db
+.directory
+
+# Backup files
+*.bak
+*.backup
+
+# Log files
+*.log
+
+# Cache files
+.cache/
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Node modules (if any)
+node_modules/
+
+# Git
+.git/
+.gitmodules
+
+# Environment files
+.env
+.env.local
+.env.*.local

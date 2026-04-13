@@ -1,0 +1,57 @@
+################################################################################
+# Origin IP Hunter - API Keys Configuration Template
+# Copy this file to api_keys.conf and add your API keys
+# Leave blank to use free APIs only
+################################################################################
+
+# Shodan API Key - Advanced search engine for internet-connected devices
+# Get it from: https://www.shodan.io/
+SHODAN_API_KEY=""
+
+# VirusTotal API Key - Analyze suspicious files and URLs
+# Get it from: https://www.virustotal.com/
+VIRUSTOTAL_API_KEY=""
+
+# Censys API Credentials - Search engine for internet devices
+# Get them from: https://censys.com/
+CENSYS_API_ID=""
+CENSYS_API_SECRET=""
+
+# SecurityTrails API Key - Historical DNS and domain intelligence
+# Get it from: https://securitytrails.com/
+SECURITYTRAILS_API_KEY=""
+
+# ipinfo.io API Key - IP address information and ASN lookup
+# Get it from: https://ipinfo.io/
+IPINFO_API_KEY=""
+
+# ViewDNS API Key - DNS history and reverse IP lookup
+# Get it from: https://www.viewdns.net/
+VIEWDNS_API_KEY=""
+
+# HunterIO API Key - Email and domain enumeration
+# Get it from: https://hunter.io/
+HUNTER_API_KEY=""
+
+# WhoisXML API Key - Historical DNS and WHOIS data
+# Get it from: https://whoisxmlapi.com/
+WHOISXML_API_KEY=""
+
+################################################################################
+# Optional Settings
+################################################################################
+
+# TOR Proxy configuration (if using TOR for anonymity)
+TOR_PROXY="socks5://127.0.0.1:9050"
+
+# Custom timeout for HTTP requests (in seconds)
+REQUEST_TIMEOUT="10"
+
+# Maximum number of IPs to scan in active reconnaissance phase
+MAX_IPS_TO_SCAN="50"
+
+# Enable debug logging for troubleshooting
+DEBUG_MODE="false"
+
+# Enable stealth mode by default (passive only)
+STEALTH_MODE_DEFAULT="false"
